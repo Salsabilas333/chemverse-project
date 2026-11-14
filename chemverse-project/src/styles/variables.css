@@ -1,0 +1,7 @@
+/* Variabel warna dan tema (biru, hijau, kuning, merah, navy, putih). Ubah warna utama di sini. */
+:root{--bg:#fff;--ink:#111;--soft:#737373;--line:#dbdbdb;--g1:#efefef;--y:#f9d65c;--sy:#fff4c2;--b:#a9d6f5;--gr:#b9e4c9;--p:#f5c6d6;--blue:#0095f6;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#000;--ink:#f5f5f5;--soft:#a8a8a8;--line:#262626;--g1:#262626}}
+:root[data-theme="dark"]{--bg:#000;--ink:#f5f5f5;--soft:#a8a8a8;--line:#262626;--g1:#262626}
+:root{--blue:#2563EB;--bb:#3B82F6;--bl:#DBEAFE;--green:#16A34A;--gb:#22C55E;--gl:#DCFCE7;--yel:#EAB308;--yb:#FACC15;--yl:#FEF3C7;--red:#DC2626;--rb:#EF4444;--rl:#FEE2E2;--y:#FACC15;--sy:#EFF6FF;--b:#DBEAFE;--gr:#DCFCE7;--p:#FEE2E2;--lv:#3B82F6;--pk:#EF4444;--grad:#2563EB}
+:root:not([data-theme='dark']){--bg:#fff;--ink:#111827;--soft:#4B5563;--line:#E2E8F0;--g1:#F1F5F9}
+:root[data-theme='dark']{--sy:#1E2A44}

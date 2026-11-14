@@ -1,0 +1,5 @@
+/* Animasi halus dan dukungan reduced-motion. */
+@keyframes fi{from{opacity:.4}}
+@media(prefers-reduced-motion:reduce){main{animation:none}}
+@keyframes sin{from{opacity:0;transform:translateY(12px)}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
